@@ -1,0 +1,6 @@
+@Aluparts_HostAddress = http://localhost:5158
+
+GET {{Aluparts_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
