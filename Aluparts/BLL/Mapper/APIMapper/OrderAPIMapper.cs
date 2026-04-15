@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BLL.Mapper.APIMapper
 {
-    class ProductAPIMapper
+    public static class OrderAPIMapper
     {
+        
     }
 }

@@ -14,10 +14,10 @@ namespace BLL.Services
     {
         public readonly ProductRepository ProductRepository = productRepository;
 
-        public Product GetProductById(int id)
+        public Order GetProductById(int id)
         {
             ProductModels productById = ProductRepository.GetProductModelById(id);
-            return ProductDALMapper.ProductToDomain(productById);
+            return OrderAPIMapper.ProductToDomain(productById);
         }
     }
 }

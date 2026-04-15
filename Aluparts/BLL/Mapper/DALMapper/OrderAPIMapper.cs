@@ -9,11 +9,11 @@ using DAL.Models;
 
 namespace BLL.Mapper.DALMapper
 {
-    public static class ProductDALMapper
+    public static class OrderAPIMapper
     {
-        public static Product ProductToDomain(ProductModels model)
+        public static Order ProductToDomain(ProductModels model)
         {
-            return new Product
+            return new Order
             {
                 Id = model.ProductId,
                 Name = model.ProductName,

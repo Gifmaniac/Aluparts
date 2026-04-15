@@ -5,12 +5,12 @@ namespace Aluparts.Controllers
 {
     [ApiController]
 
-    [Route("api/store/product")]
+    [Route("api/users/{userid}/orders")]
     public class ProductController(ProductService service) : ControllerBase
     {
         public IActionResult GetProductById([FromQuery] int id)
         {
-            
+            return null;
         }
     }
 }

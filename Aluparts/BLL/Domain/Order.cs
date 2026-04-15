@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Domain
 {
-    public class Product
+    public class Order
     {
         public int Id { get; set; }
         public required string Name { get; set; }
